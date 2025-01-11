@@ -1,7 +1,9 @@
+package ex_11_jan;
+
 public class lab_001 {
     public static void main(String[] args) {
-        System.out.println("hwyy" +
-                "boy");
+        int a = 1;
+        System.out.println(a);
     }
 
 }
