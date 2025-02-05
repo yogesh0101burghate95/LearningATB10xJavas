@@ -1,9 +1,8 @@
 package ex_03_Literal;
 
 import java.util.Scanner;
-import java.util.Scanner;
 
-public class lab_006 {
+public class lab_006_findGrade {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int check = 1;
