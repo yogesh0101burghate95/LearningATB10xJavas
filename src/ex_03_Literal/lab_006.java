@@ -1,12 +1,14 @@
-package ex_Literals;
+package ex_03_Literal;
+
+import java.util.Scanner;
 import java.util.Scanner;
 
-public class Lab_008 {
+public class lab_006 {
     public static void main(String[] args) {
-          Scanner sc = new Scanner(System.in);
-          int check = 1;
+        Scanner sc = new Scanner(System.in);
+        int check = 1;
 
-          System.out.println("Welcome!!!");
+        System.out.println("Welcome!!!");
         while (check == 1) {
             System.out.print("\nEnter Number (0-100) =");
             int marks = sc.nextInt();
