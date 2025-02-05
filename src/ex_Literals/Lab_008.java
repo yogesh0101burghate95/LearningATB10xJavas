@@ -16,7 +16,7 @@ public class Lab_008 {
                     (marks >= 80 && marks <= 89) ? "B" :
                             (marks >= 70 && marks <= 79) ? "C" :
                                     (marks >= 60 && marks <= 69) ? "D" :
-                                            (marks >= 1 && marks > 59) ? "F" : "Failed");
+                                            (marks > 59) ? "F" : "Failed");
             System.out.println(result);
             System.out.print("\nDo you want to continue? (1-Yes, 0-No): ");
             check = sc.nextInt();
