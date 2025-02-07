@@ -22,11 +22,13 @@ public class lab_013 {
             {
                 vowels = vowels + 1;
             }
-            else if (letter >= 'a' && letter <= 'z'){
+            else {
                 consonants = consonants + 1;
             }
         }
         System.out.println("Number of vowels: " + vowels);
         System.out.println("Number of consonants: " + consonants);
+        sc.close();
     }
+
 }
