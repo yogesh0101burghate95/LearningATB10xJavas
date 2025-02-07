@@ -1,4 +1,4 @@
-package ex_Palidrome;
+package ex_05_Palindrome;
 import java.util.Scanner;
 
 public class lab_014 {

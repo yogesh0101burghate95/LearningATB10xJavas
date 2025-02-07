@@ -1,4 +1,4 @@
-package ex_Count_vowels;
+package ex_06_Count_vowels;
 import  java.util.Scanner;
 
 public class lab_013 {
