@@ -3,11 +3,10 @@ package ex_02_jan;
 public class lab_002HW {
     public static void main(String[] args) {
         int a= 9;
-        int b;
-        for (b= 1; b<=10; ++b)
+        for (int b= 1; b<=10; b++)
         {
             int c = a*b;
-           System.out.println(c);
+           System.out.printf("%d * %d = %d\n",a, b, a*b);
         }
     }
 }
