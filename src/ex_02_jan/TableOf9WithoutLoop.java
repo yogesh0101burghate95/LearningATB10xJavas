@@ -16,4 +16,3 @@ public class TableOf9WithoutLoop {
         System.out.printf("%d * 10 = %d\n", a, a * 10);
     }
 }
-}
