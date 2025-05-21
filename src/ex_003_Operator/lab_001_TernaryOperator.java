@@ -14,7 +14,7 @@ public class lab_001_TernaryOperator {
                        (marks >=80) ? "B":
                        (marks >=70) ? "C":
                        (marks >=60) ? "D":
-                       (marks <=59) ? "F" : "Invalid Input";
+                       (marks <=59) ? "Fail" : "Invalid Input";
 
         System.out.println(grade);
     }

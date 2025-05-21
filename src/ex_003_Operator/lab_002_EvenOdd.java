@@ -1,8 +1,8 @@
-package ex_02_jan;
+package ex_003_Operator;
 
 import java.util.Scanner;
 
-public class lab_003_TernaryOperator {
+public class lab_002_EvenOdd {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
