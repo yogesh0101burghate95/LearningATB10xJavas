@@ -13,7 +13,7 @@ public class lab_014 {
         for (int i = user.length() - 1; i >= 0; i--)
         reverse = reverse + user.charAt(i);
         {
-            if (user.toString().equals(user)) {
+            if (reverse.equals(user)) {
                 System.out.println("Word is a Palindrome:- " + reverse);
             }
             else {
