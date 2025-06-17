@@ -13,7 +13,7 @@ public class lab_019_Vote_age {
         }
         else {
             System.out.println("Member is not allowed to vote");
-            System.out.println("Please wait for " +(18-age) + " years...Thank you..");
+            System.out.println("Please wait for " +(18-age) + " years...\nThank you..");
         }
     }
 }
