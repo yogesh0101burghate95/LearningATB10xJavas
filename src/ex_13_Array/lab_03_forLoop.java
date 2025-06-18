@@ -9,8 +9,8 @@ public class lab_03_forLoop {
         empId[3] = 401;
         empId[4] = 501;
 
-        for(int i=0; i<empId.length; i++){
-            System.out.println(empId[i]);
+        for (int j : empId) {
+            System.out.println(j);
         }
     }
 }
